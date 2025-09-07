@@ -141,6 +141,6 @@ This project is for educational and demonstration purposes.
 
 ---
 
-**Contact:** [Your Email]  
-**LinkedIn:** [Your Profile]  
-**Portfolio:** [Your Website]
+**Contact:** Udaysimha Nerella
+**LinkedIn:** https://www.linkedin.com/in/udaysimha-nerella-52b51443/
+
