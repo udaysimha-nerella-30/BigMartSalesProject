@@ -1,0 +1,45 @@
+{
+  "timestamp": "20250906_160519",
+  "model_type": "RandomForestRegressor",
+  "random_state": 42,
+  "data_split": {
+    "method": "GroupKFold",
+    "train_records": 6818,
+    "validation_records": 1705,
+    "train_items": 1247,
+    "validation_items": 312
+  },
+  "cross_validation": {
+    "cv_strategy": "GroupKFold_5_splits",
+    "r2_mean": 0.6961779972931991,
+    "r2_std": 0.013322620366601812,
+    "rmse_mean": 935.4305171754116,
+    "rmse_std": 27.64063506453542,
+    "individual_folds": {
+      "r2_scores": [
+        0.682123084239093,
+        0.7067800635148865,
+        0.6993788826820704,
+        0.7131449885024439,
+        0.6794629675275015
+      ],
+      "rmse_scores": [
+        946.820417589661,
+        893.3460310800493,
+        916.1592955684149,
+        972.6510431639954,
+        948.1757984749377
+      ]
+    }
+  },
+  "validation_performance": {
+    "r2_score": 0.20878712755683815,
+    "rmse": 1535.8701333712702,
+    "mae": 1064.8744049435688,
+    "target_mean_train": 2166.089970724553,
+    "target_mean_validation": 2242.0668563049853
+  },
+  "performance_gap": {
+    "r2_gap": 0.4873908697363609,
+    "rmse_gap": 600.4396161958585,
+    "overfitting_detected": 

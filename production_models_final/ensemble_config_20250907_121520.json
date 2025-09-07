@@ -1,0 +1,29 @@
+{
+  "best_strategy": "equal_weights",
+  "best_weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "model_names": [
+    "et_optimized_advanced",
+    "gb_optimized_advanced",
+    "xgb_optimized_advanced",
+    "rf_optimized_advanced"
+  ],
+  "performance_metrics": {
+    "r2_score": 0.991304681208984,
+    "rmse": 158.61180872748002,
+    "mae": 104.47935989265167
+  },
+  "model_paths": {
+    "et_optimized_advanced": "../production_models_final/et_optimized_final_20250907_121520.pkl",
+    "gb_optimized_advanced": "../production_models_final/gb_optimized_final_20250907_121520.pkl",
+    "xgb_optimized_advanced": "../production_models_final/xgb_optimized_final_20250907_121520.pkl",
+    "rf_optimized_advanced": "../production_models_final/rf_optimized_final_20250907_121520.pkl"
+  },
+  "preprocessor_path": "../production_models_final/bigmart_preprocessor_final_20250907_121520.pkl",
+  "timestamp": "20250907_121520",
+  "neural_adaptive_path": "../production_models_final/neural_adaptive_ensemble_20250907_121520.pkl"
+}
